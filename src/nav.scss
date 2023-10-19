@@ -1,4 +1,12 @@
-.nav {
-    display: block;
-    background: purple;
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: $dark;
+        margin: 0 20px 0 0;
+    }
 }

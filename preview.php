@@ -13,15 +13,20 @@
  * @subpackage IngaPortfolio
  */
 
+ /* Template Name: Preview  */
+
 get_header(); 
 ?>
 
-<div class="main">
-      <a href="mailto:hello@ingakatcoleman.com">
-          <img src="<?php echo get_template_directory_uri(); ?>/ikc.png" alt="Inga Kat Coleman info" />
-      </a>
-  </div>
-</body>
+<main class="main-container">
+    <section class="header-container">
+        <?php get_template_part( 'logo' ); ?>
+        <?php get_template_part( 'nav' ); ?>
+    </section>
+    <div id="projects-container" class="projects-container">
+        <h1>Loading projects...</h1>
+    </div>
+</main>
 
 <?php
 get_footer();

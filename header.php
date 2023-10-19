@@ -7,7 +7,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package WordPress
- * @subpackage LeanhardPortfolio
+ * @subpackage IngaPortfolio
  */
 
 ?>
@@ -21,4 +21,3 @@
 
 <body>
     <div id="container">
-    <h1>Header Three</h1>

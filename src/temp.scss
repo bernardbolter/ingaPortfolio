@@ -1,0 +1,37 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main a {
+    width: 70%;
+  }
+  
+  .main img {
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 480px) {
+    .main a {
+      width: 60%;
+    }
+  }
+  
+  @media screen and (min-width: 650px) {
+    .main a {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (min-width: 850px) {
+    .main a {
+      width: 30%;
+    }
+  }

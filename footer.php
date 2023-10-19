@@ -5,12 +5,12 @@
  * Contains the closing of the #content div and all content after.
  *
  * @package WordPress
- * @subpackage LeanhardPortfolio
+ * @subpackage IngaPortfolio
  */
 
 ?>
 
-    <footer>
+    <footer class="footer-container">
         <h1>Footer</h1>
 	</footer>
 
